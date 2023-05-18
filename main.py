@@ -88,7 +88,7 @@ starfox = [
     (G4, 0.5),
 ]
 
-zelda = [
+mario = [
     (G3, .33),
     (C4, .33),
     (E4, .34),
@@ -159,7 +159,24 @@ finalfantasy = [
     (C5, 3),
 ]
 
+fallguys = [
+    (Fs4, 1/2),
+    (E4, 1/2),
+    (Fs4, 1/2),
+    (A4, 1),
+    (Fs4, 1/2),
+    (A4, 1/2),
+    (B4, 1),
+    (A4, 1/2),
+    (B4, 1/2),
+    (E5, 1),
+    (Cs5, 1/2),
+    (E5, 1),
+    (Fs5, 1),
+]
+
 play(starfox, 150)
-play(zelda, 150)
+play(mario, 150)
 play(kirby, 260)
 play(finalfantasy, 120)
+play(fallguys, 170)
